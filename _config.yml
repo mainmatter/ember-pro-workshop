@@ -3,7 +3,7 @@ name: ember-pro-workshop.simplabs.com
 sass:
   sass_dir: css
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
