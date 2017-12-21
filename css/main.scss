@@ -48,14 +48,28 @@ p {
 
   h3 {
     color: #e04a31;
-    margin: 0 0 80px 0;
+    margin: 0 0 20px 0;
     font-weight: 900;
+  }
 
-    .register-now {
-      display: block;
-      font-size: 18px;
-      margin: 8px;
-      text-decoration: underline;
+  .tito-tickets-button {
+    background-color: #688f85;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: normal;
+    display: block;
+    margin: auto;
+    margin-bottom: 70px;
+    padding: 10px;
+    appearance: none;
+    webkit-appearance: none;
+    box-shadow: none;
+    outline: none;
+    border: none;
+
+    &:hover {
+      text-decoration: none;
     }
   }
 
