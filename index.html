@@ -90,7 +90,6 @@ title: Ember Pro Workshop - London, April 19th + 20th, 2018
           var maxHeights = elements.map(function(i, elem) {
             return elem.scrollHeight;
           });
-          debugger;
           var maxHeight = Math.max.apply(null, maxHeights);
           elements.each(function(i, elem) {
             $(elem).css('height', maxHeight + 'px');
