@@ -331,6 +331,31 @@ a.anchor {
   }
 }
 
+
+.venue {
+  background-color: #fff;
+
+  h3 {
+    color: #688e85;
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .address > span {
+    display: block;
+    clear: both;
+    font-weight: bold;
+  }
+
+  #map-canvas {
+    height: 300px;
+    margin: 20px 0 10px;
+  }
+}
+
 .instructors {
   background-color: #e7f2ef;
 
