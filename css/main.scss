@@ -322,17 +322,6 @@ a.anchor {
 }
 
 .venue {
-  h3 {
-    color: #e04a31;
-  }
-
-  p {
-    font-size: 16px;
-  }
-}
-
-
-.venue {
   background-color: #fff;
 
   h3 {
@@ -381,26 +370,6 @@ a.anchor {
     &:first-child {
       margin: 20px 0 0 0;
     }
-  }
-}
-
-.location {
-  background-color: #e4f7fd;
-
-  h3 {
-    color: #e04a31;
-    margin-bottom: 60px;
-  }
-
-  .address > span {
-    display: block;
-    clear: both;
-    font-weight: bold;
-  }
-
-  #map-canvas {
-    height: 300px;
-    margin: 20px 0 10px;
   }
 }
 
@@ -506,7 +475,7 @@ i:hover {
     }
   }
 
-  .location {
+  .venue {
     h4 {
       margin-top: 20px;
     }
